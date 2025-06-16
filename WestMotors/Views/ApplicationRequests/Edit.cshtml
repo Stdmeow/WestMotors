@@ -1,0 +1,67 @@
+﻿@model WestMotorsApp.Models.ApplicationRequest
+
+@{
+    ViewData["Title"] = "Редактировать Заявку";
+}
+
+<h1>Редактировать Заявку</h1>
+
+<h4>Заявка</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="RequestDate" /> @* Keep RequestDate as hidden to preserve it *@
+            <input type="hidden" asp-for="ClientFullName" /> @* Keep ClientFullName as hidden *@
+            <input type="hidden" asp-for="ContactInfo" /> @* Keep ContactInfo as hidden *@
+            <input type="hidden" asp-for="PreferredContactMethod" /> @* Keep PreferredContactMethod as hidden *@
+            <input type="hidden" asp-for="UserEmail" /> @* Keep UserEmail as hidden *@
+
+            <div class="form-group">
+                <label asp-for="ClientId" class="control-label"></label>
+                <select asp-for="ClientId" class="form-control" asp-items="ViewBag.ClientId"></select>
+                <span asp-validation-for="ClientId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarId" class="control-label"></label>
+                <select asp-for="CarId" class="form-control" asp-items="ViewBag.CarId"></select>
+                <span asp-validation-for="CarId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RequestType" class="control-label"></label>
+                <input asp-for="RequestType" class="form-control" />
+                <span asp-validation-for="RequestType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <select asp-for="Status" class="form-control">
+                    <option value="Новая">Новая</option>
+                    <option value="В обработке">В обработке</option>
+                    <option value="Выполнена">Выполнена</option>
+                    <option value="Отклонена">Отклонена</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ManagerNotes" class="control-label"></label>
+                <textarea asp-for="ManagerNotes" class="form-control"></textarea>
+                <span asp-validation-for="ManagerNotes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Сохранить" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Вернуться к списку</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

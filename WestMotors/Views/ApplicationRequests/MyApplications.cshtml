@@ -1,0 +1,63 @@
+﻿@model IEnumerable<WestMotorsApp.Models.ApplicationRequest>
+
+@{
+    ViewData["Title"] = "Мои Заявки";
+}
+
+<h1>Мои Заявки</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Car)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RequestType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RequestDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ManagerNotes)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Car.Brand) @Html.DisplayFor(modelItem => item.Car.Model)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RequestType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RequestDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ManagerNotes)
+                    </td>
+                    <td>
+                        @* Здесь вы можете добавить ссылки на действия, например, для просмотра деталей или отмены запроса, если применимо *@
+                        @* <a asp-action="Details" asp-route-id="@item.Id">Подробнее</a> *@
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>У вас пока нет активных заявок.</p>
+}

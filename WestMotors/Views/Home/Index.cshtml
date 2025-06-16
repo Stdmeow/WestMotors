@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Главная страница";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать в WestMotors!</h1>
+    <p>Ваш надежный партнер в покупке и продаже автомобилей с пробегом.</p>
+    <img src="~/images/auto_salon_banner.jpg" alt="Автосалон" class="img-fluid" style="max-width: 800px; height: auto;" />
+    <p class="mt-4">
+        <a class="btn btn-primary btn-lg" asp-controller="Cars" asp-action="Index">Перейти в каталог автомобилей</a>
+    </p>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <p>
+            <a class="btn btn-outline-secondary" asp-area="Identity" asp-page="/Account/Login">Войти</a> или
+            <a class="btn btn-outline-secondary" asp-area="Identity" asp-page="/Account/Register">Зарегистрироваться</a>
+        </p>
+    }
+</div>

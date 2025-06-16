@@ -1,0 +1,119 @@
+﻿@model WestMotorsApp.Models.ApplicationRequest
+
+@{
+    ViewData["Title"] = "Детали Заявки";
+}
+
+<h1>Детали Заявки</h1>
+
+<div>
+    <h4>Заявка #@Html.DisplayFor(model => model.Id)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Client)
+        </dt>
+        <dd class="col-sm-9">
+            @if (Model.Client != null)
+            {
+                @Html.DisplayFor(model => model.Client.FullName)
+                @: (
+                @Html.DisplayFor(model => model.Client.ContactInfo)
+                @: )
+            }
+            else
+            {
+                <span>Клиент не указан</span>
+            }
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ClientFullName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ClientFullName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.UserEmail)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.UserEmail)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ContactInfo)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ContactInfo)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PreferredContactMethod)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PreferredContactMethod)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Car)
+        </dt>
+        <dd class="col-sm-9">
+            @if (Model.Car != null)
+            {
+                @Html.DisplayFor(model => model.Car.Brand)
+                @:
+                @Html.DisplayFor(model => model.Car.Model)
+                @: (
+                @Html.DisplayFor(model => model.Car.VIN)
+                @: )
+                <br />
+                @if (!string.IsNullOrEmpty(Model.Car.PhotoUrl))
+                {
+                    <img src="@Url.Content(Model.Car.PhotoUrl)" alt="@Model.Car.Brand @Model.Car.Model"
+                         class="img-fluid mt-2" style="max-width: 500px; height: auto;" />
+                }
+                else
+                {
+                    <img src="~/images/noimage.png" alt="Нет изображения"
+                         class="img-fluid mt-2" style="max-width: 500px; height: auto;" />
+                }
+            }
+            else
+            {
+                <span>Автомобиль не указан</span>
+            }
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.RequestType)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.RequestType)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.RequestDate)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.RequestDate)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ManagerNotes)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ManagerNotes)
+        </dd>
+    </dl>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Редактировать</a> |
+    <a asp-action="Index" class="btn btn-secondary">Вернуться к списку</a>
+    @if (User.IsInRole("Администратор"))
+    {
+        <a asp-action="Delete" asp-route-id="@Model?.Id" class="btn btn-danger">Удалить</a>
+    }
+</div>
+
+@section Scripts {
+}

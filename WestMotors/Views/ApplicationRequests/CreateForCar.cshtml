@@ -1,0 +1,114 @@
+﻿@model WestMotorsApp.Models.ApplicationRequest
+@using Microsoft.AspNetCore.Mvc.Rendering // Добавим для SelectListItem
+
+@{
+    ViewData["Title"] = "Оставить заявку";
+    var car = ViewBag.Car as WestMotorsApp.Models.Car;
+    // Убедитесь, что contactOptions не null, иначе инициализируйте пустой список
+    var contactOptions = ViewBag.ContactOptions as List<SelectListItem> ?? new List<SelectListItem>();
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Оставить заявку на @car?.Brand @car?.Model</h1>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">Детали заявки</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="CreateForCar" method="post">
+                @* Отображение всех ошибок валидации модели *@
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                @* Скрытые поля для передачи ID автомобиля и ClientId *@
+                <input type="hidden" asp-for="CarId" value="@car?.Id" />
+                <input type="hidden" asp-for="ClientId" /> @* ClientId будет установлен в контроллере на основе текущего пользователя *@
+
+                <div class="mb-3">
+                    <label for="CarDetails" class="form-label">Выбранный автомобиль</label>
+                    <p class="form-control-static">@car?.Brand @car?.Model (@car?.ManufactureYear г.) - @car?.Price.ToString("N0") Br</p>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ClientFullName" class="form-label"></label>
+                    @* Поле только для чтения, ФИО заполняется из профиля пользователя *@
+                    <input asp-for="ClientFullName" class="form-control" readonly />
+                    <div class="form-text text-muted">Ваше ФИО из профиля пользователя.</div>
+                    <span asp-validation-for="ClientFullName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PreferredContactMethod" class="form-label"></label>
+                    <select asp-for="PreferredContactMethod" asp-items="contactOptions" class="form-select" id="preferredContactMethodSelect">
+                        <option value="">-- Выберите способ связи --</option>
+                    </select>
+                    <span asp-validation-for="PreferredContactMethod" class="text-danger"></span>
+                </div>
+
+                @* Этот блок будет скрыт или показан в зависимости от выбора PreferredContactMethod *@
+                <div class="mb-3" id="manualContactInput">
+                    <label asp-for="ContactInfo" class="form-label"></label>
+                    <input asp-for="ContactInfo" class="form-control" placeholder="Введите ваш телефон или email" />
+                    <div class="form-text text-muted">Введите ваш телефон или email, если выбрали "Другой" способ связи.</div>
+                    <span asp-validation-for="ContactInfo" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="RequestType" class="form-label"></label>
+                    <select asp-for="RequestType" class="form-select">
+                        <option value="">-- Выберите тип заявки --</option>
+                        <option value="Покупка">Покупка</option>
+                        <option value="Тест-драйв">Тест-драйв</option>
+                        <option value="Консультация">Консультация</option>
+                    </select>
+                    <span asp-validation-for="RequestType" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Details" asp-controller="Cars" asp-route-id="@car?.Id" class="btn btn-secondary">Вернуться к автомобилю</a>
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var selectElement = document.getElementById('preferredContactMethodSelect');
+            var manualInputDiv = document.getElementById('manualContactInput');
+            var contactInfoInput = document.getElementById('ContactInfo'); // Это asp-for="ContactInfo"
+
+            function toggleManualInput() {
+                if (selectElement.value === "Другой") {
+                    manualInputDiv.style.display = 'block'; // Показываем поле для ручного ввода
+                    contactInfoInput.setAttribute('required', 'required'); // Делаем его обязательным
+                    // Очищаем значение, чтобы пользователь мог ввести новое, если он переключился с другого варианта
+                    if (contactInfoInput.value === '@Model.PreferredContactMethod' && '@Model.PreferredContactMethod' !== 'Другой') {
+                         contactInfoInput.value = '';
+                    }
+                } else {
+                    manualInputDiv.style.display = 'none'; // Скрываем поле для ручного ввода
+                    contactInfoInput.removeAttribute('required'); // Убираем обязательность
+                    // Устанавливаем ContactInfo в значение выбранного метода, чтобы оно отправилось на сервер
+                    contactInfoInput.value = selectElement.value;
+                }
+            }
+
+            // Инициализация при загрузке страницы:
+            // Убедитесь, что начальное состояние соответствует текущему значению PreferredContactMethod
+            // Это важно при возврате формы после ошибок валидации
+            toggleManualInput();
+
+            // Обработчик изменения выбора
+            selectElement.addEventListener('change', toggleManualInput);
+
+            // Дополнительная проверка на пустую опцию по умолчанию, чтобы убедиться, что она выбрана, если Model.PreferredContactMethod пуст
+            if (!selectElement.value && selectElement.querySelector('option[value=""]')) {
+                selectElement.value = ""; // Устанавливаем пустую опцию
+            }
+        });
+    </script>
+}

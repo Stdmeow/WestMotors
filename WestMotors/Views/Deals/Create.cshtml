@@ -1,0 +1,62 @@
+﻿@model WestMotorsApp.Models.Deal
+
+@{
+    ViewData["Title"] = "Создать Сделку";
+}
+
+<h1>Создать Сделку</h1>
+
+<h4>Сделка</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BuyerId" class="control-label"></label>
+                <select asp-for="BuyerId" class="form-control" asp-items="ViewBag.BuyerId">
+                    <option value="">-- Выберите покупателя --</option>
+                </select>
+                <span asp-validation-for="BuyerId" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="CarId" class="control-label"></label>
+                <select asp-for="CarId" class="form-control" asp-items="ViewBag.CarId">
+                    <option value="">-- Выберите автомобиль --</option>
+                </select>
+                <span asp-validation-for="CarId" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="DealDate" class="control-label"></label>
+                <input asp-for="DealDate" class="form-control" type="date" /> @* Указываем тип date для календаря *@
+                <span asp-validation-for="DealDate" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="FinalCost" class="control-label"></label>
+                <input asp-for="FinalCost" class="form-control" type="number" step="0.01" /> @* Указываем тип number и шаг для десятичных значений *@
+                <span asp-validation-for="FinalCost" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="PaymentMethod" class="control-label"></label>
+                <input asp-for="PaymentMethod" class="form-control" />
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+            @* SellerId будет установлен в контроллере, скрываем его на форме *@
+            <input type="hidden" asp-for="SellerId" value="@ViewBag.SellerId.SelectedValue" />
+
+            <div class="form-group mt-4">
+                <input type="submit" value="Создать" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-link">Вернуться к списку сделок</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

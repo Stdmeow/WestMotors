@@ -1,0 +1,70 @@
+﻿@model IEnumerable<WestMotorsApp.Models.Deal>
+
+@{
+    ViewData["Title"] = "Все Сделки";
+}
+
+<h1>Все Сделки</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Создать новую сделку</a>
+</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Buyer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Car)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DealDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FinalCost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Seller)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Buyer.FullName)
+                </td>
+                <td>
+                    @* Отображаем марку и модель автомобиля, а не только VIN *@
+                    @Html.DisplayFor(modelItem => item.Car.Brand) @Html.DisplayFor(modelItem => item.Car.Model) (@Html.DisplayFor(modelItem => item.Car.VIN))
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DealDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FinalCost)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Seller.FullName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Редактировать</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Детали</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

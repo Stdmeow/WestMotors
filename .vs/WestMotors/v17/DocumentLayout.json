@@ -1,0 +1,685 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stdme\\source\\repos\\WestMotors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\deals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\deals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\cars\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\cars\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\cars\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\cars\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\migrations\\20250522071419_addclientidtoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\migrations\\20250522071419_addclientidtoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\applicationrequests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\applicationrequests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\applicationrequests\\createforcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\applicationrequests\\createforcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\cars\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\controllers\\dealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\controllers\\dealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\controllers\\applicationrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\controllers\\applicationrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\services\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\services\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\applicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\applicationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\usedpartinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\usedpartinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\sparepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\sparepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\autoserviceentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\autoserviceentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\deal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\deal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|c:\\users\\stdme\\source\\repos\\westmotors\\westmotors\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAD28-E612-4163-9D58-615DE51F2CDA}|WestMotors\\WestMotors.csproj|solutionrelative:westmotors\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Deals\\Details.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Deals\\Details.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Deals\\Details.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Deals\\Details.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwDwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T13:59:30.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "WestMotors\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T08:20:59.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WestMotors\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:18:51.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Cars\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Delete.cshtml.cs",
+              "RelativeToolTip": "WestMotors\\Views\\Cars\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:15:37.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAswAcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:58:13.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "WestMotors\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T07:56:20.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WestMotors\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:43:18.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Cars\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Index.cshtml.cs",
+              "RelativeToolTip": "WestMotors\\Views\\Cars\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:38:35.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T07:38:33.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T07:38:29.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T07:23:22.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250522071419_AddClientIdToApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Migrations\\20250522071419_AddClientIdToApplicationUser.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Migrations\\20250522071419_AddClientIdToApplicationUser.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Migrations\\20250522071419_AddClientIdToApplicationUser.cs",
+              "RelativeToolTip": "WestMotors\\Migrations\\20250522071419_AddClientIdToApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:14:19.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:56:29.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:56:28.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:53:02.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\ApplicationRequests\\Index.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\ApplicationRequests\\Index.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\ApplicationRequests\\Index.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\ApplicationRequests\\Index.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:34:17.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateForCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\ApplicationRequests\\CreateForCar.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\ApplicationRequests\\CreateForCar.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\ApplicationRequests\\CreateForCar.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\ApplicationRequests\\CreateForCar.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAkwG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:34:02.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Cars\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Delete.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Cars\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:33:39.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Cars\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Edit.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Cars\\Edit.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBZwA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:32:53.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Create.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Cars\\Create.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Create.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Cars\\Create.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:32:33.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Details.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Cars\\Details.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Details.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Cars\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:32:18.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Index.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Cars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Cars\\Index.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Cars\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:32:03.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:31:29.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WestMotors\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WestMotors\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T06:31:20.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "WestMotors\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:31:00.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DealsController.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\DealsController.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Controllers\\DealsController.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\DealsController.cs",
+              "RelativeToolTip": "WestMotors\\Controllers\\DealsController.cs",
+              "ViewState": "AgIAALYBAAAAAAAAAAAkwMgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:30:44.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\ApplicationRequestsController.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Controllers\\ApplicationRequestsController.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\ApplicationRequestsController.cs",
+              "RelativeToolTip": "WestMotors\\Controllers\\ApplicationRequestsController.cs",
+              "ViewState": "AgIAAFsBAAAAAAAAAAA3wGwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:30:28.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "WestMotors\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAArwFcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:30:12.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Services\\SeedData.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Services\\SeedData.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Services\\SeedData.cs",
+              "RelativeToolTip": "WestMotors\\Services\\SeedData.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:29:26.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Program.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Program.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Program.cs",
+              "RelativeToolTip": "WestMotors\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwEgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:28:47.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\appsettings.json",
+              "RelativeDocumentMoniker": "WestMotors\\appsettings.json",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\appsettings.json",
+              "RelativeToolTip": "WestMotors\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T06:28:14.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WestMotors\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA0wEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:27:58.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApplicationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\ApplicationRequest.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\ApplicationRequest.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\ApplicationRequest.cs",
+              "RelativeToolTip": "WestMotors\\Models\\ApplicationRequest.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:27:33.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Supplier.cs",
+              "RelativeToolTip": "WestMotors\\Models\\Supplier.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:27:20.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UsedPartInService.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\UsedPartInService.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\UsedPartInService.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\UsedPartInService.cs",
+              "RelativeToolTip": "WestMotors\\Models\\UsedPartInService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:26:48.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SparePart.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\SparePart.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\SparePart.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\SparePart.cs",
+              "RelativeToolTip": "WestMotors\\Models\\SparePart.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:26:29.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AutoServiceEntry.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\AutoServiceEntry.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\AutoServiceEntry.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\AutoServiceEntry.cs",
+              "RelativeToolTip": "WestMotors\\Models\\AutoServiceEntry.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:26:11.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Deal.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Deal.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\Deal.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Deal.cs",
+              "RelativeToolTip": "WestMotors\\Models\\Deal.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA1wBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:25:52.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Client.cs",
+              "RelativeToolTip": "WestMotors\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:25:33.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\Car.cs",
+              "RelativeToolTip": "WestMotors\\Models\\Car.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:24:56.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WestMotors\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\stdme\\source\\repos\\WestMotors\\WestMotors\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WestMotors\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:22:08.508Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

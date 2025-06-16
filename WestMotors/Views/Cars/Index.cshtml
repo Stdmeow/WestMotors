@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WestMotorsApp.Models.Car>
+
+@{
+    ViewData["Title"] = "Каталог автомобилей";
+}
+
+<h1>Каталог автомобилей</h1>
+
+<form asp-controller="Cars" asp-action="Index" method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-3 mb-2">
+            <input type="text" name="brand" class="form-control" placeholder="Марка" value="@ViewBag.BrandFilter" />
+        </div>
+        <div class="col-md-2 mb-2">
+            <input type="number" name="minYear" class="form-control" placeholder="От года" value="@ViewBag.MinYearFilter" />
+        </div>
+        <div class="col-md-2 mb-2">
+            <input type="number" name="maxMileage" class="form-control" placeholder="Пробег до" value="@ViewBag.MaxMileageFilter" />
+        </div>
+        <div class="col-md-2 mb-2">
+            <input type="number" name="maxPrice" class="form-control" placeholder="Цена до" value="@ViewBag.MaxPriceFilter" />
+        </div>
+        <div class="col-md-3 mb-2">
+            <button type="submit" class="btn btn-primary">Фильтровать</button>
+            <a asp-action="Index" class="btn btn-secondary">Сброс</a>
+        </div>
+    </div>
+</form>
+
+@if (User.IsInRole("Администратор"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-success mb-3">Добавить новый автомобиль</a>
+    </p>
+}
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                @if (!string.IsNullOrEmpty(item.PhotoUrl))
+                {
+                    <img src="@item.PhotoUrl" class="card-img-top" alt="@item.Brand @item.Model" style="height: 200px; object-fit: cover;">
+                }
+                else
+                {
+                    <img src="~/images/noimage.png" class="card-img-top" alt="Нет изображения" style="height: 200px; object-fit: cover;">
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Brand) @Html.DisplayFor(modelItem => item.Model) (@Html.DisplayFor(modelItem => item.ManufactureYear) г.)</h5>
+                    <p class="card-text">Пробег: @Html.DisplayFor(modelItem => item.Mileage) км</p>
+                    <p class="card-text">Состояние: @Html.DisplayFor(modelItem => item.Condition)</p>
+                    <p class="card-text">**Цена: @item.Price.ToString("C0")**</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Подробнее</a>
+                    @if (User.IsInRole("Администратор"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Редактировать</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Удалить</a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,57 @@
+﻿@model WestMotorsApp.Models.Deal
+
+@{
+    ViewData["Title"] = "Удалить Сделку";
+}
+
+<h1>Удалить Сделку</h1>
+
+<h3>Вы уверены, что хотите удалить эту сделку?</h3>
+<div>
+    <h4>Сделка #@Html.DisplayFor(model => model.Id)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Buyer)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Buyer.FullName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Car)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Car.Brand) @Html.DisplayFor(model => model.Car.Model) (@Html.DisplayFor(model => model.Car.VIN))
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Seller)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Seller.FullName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.DealDate)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DealDate)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.FinalCost)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.FinalCost)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.PaymentMethod)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.PaymentMethod)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-secondary">Вернуться к списку</a>
+    </form>
+</div>
